@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.5;
+    color: var(--text-color);
+}
+
+p{
+    font-size: 14px;
+}
+
+body{
+    background: var(--background-color);
+}
+
+h1{
+    font-size: bold;
+    margin-bottom: 20px;
+    text-align: left;
+    text-align: center;
+    margin: 25px 0 0 0;
+    color: #727272;
+}
+
+.container{
+    margin: 0 auto;
+    padding: 0 20%;
+    height: 100%;
+    width: 100%;
+    display: flex; /*Faz os itens ficarem lado a lado*/
+    justify-content: space-between; /*Espaça os itens uniformemente*/
+   }
+
+.card{
+    border: 1px #0036e7;
+    padding: 15px;
+    border-radius: 20px;
+    margin: 10px auto;
+}
+
+header{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.nav{
+    height: 100%;
+    width: 100%;
+}
+
+.menu{
+    list-style: none;
+}
+
+.menu li{
+    display: inline-block;
+    margin: 50px;
+    padding-top: 25px;
+}
+
+.menu li a{
+    text-decoration: none;
+    font-weight: 900;
+    transition: background-color 0.3s;
+}
+
+.card{
+    padding: 15px;
+    border-radius: 10px;
+    border: 0.5px solid #727272;
+}
+
+.card-title{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.card-img{}
+
+    .badge{
+        padding: 6px;
+        border-radius: 5px;
+    }
+
+    .badge + .badge{
+        margin-left: 10px;
+        /*só se usa o left quando se tem outro badge*/
+    }
+
+    .flex 
+    {
+        display: flex;
+    }
+
+.imagem{
+    margin: auto; /*aplica a imagem aos quatro lados.*/
+    width: 10;
+    text-align: center;
+}
+
+.box{
+    background-color: #dbdada;
+    padding: 300px;
+    margin: 10px;
+    border: 0.5px solid #fd3030;
+    width: 100px; /**/
+    border-radius: 100px;
+    box-shadow: 0 4px 8px 0;
+}
+
+.box1 {
+    background-color: #e2d9d9;
+    padding: 40px;
+    margin-left: 10px;
+    border: 1.5px solid #ff4343;
+    width: 550px;
+    border-radius: 10px;
+    box-shadow: 0 9px 8px 0 rgba(255, 0, 0, 0.2);
+}
+
+.box2 {
+    background-color: #c2b6b6;
+    padding: 10px;
+    margin: 10px;
+    border: 1.5px solid #f83030;
+    width: 25%;
+    box-shadow: 0 9px 8px 0 rgba(255, 0, 0, 0.2);
+}
+
+.imge{
+    position: absolute;
+    right: 90px;
+    top: 30%;
+}
+
+.left{
+    position: ;
+    left: 100px;
+}
+
+.outer{
+    width: 100px;
+    height: 100px;
+    padding-left: 100px;
+}
