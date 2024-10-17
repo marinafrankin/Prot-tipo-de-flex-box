@@ -32,6 +32,15 @@ h1{
     justify-content: space-between; /*Espaça os itens uniformemente*/
    }
 
+   .container1{
+    margin: 0 auto;
+    padding: 0 20%;
+    height: 100%;
+    width: 100%;
+    display: flex; /*Faz os itens ficarem lado a lado*/
+    justify-content: space-between; /*Espaça os itens uniformemente*/
+   }
+
 .card{
     border: 1px #0036e7;
     padding: 15px;
@@ -73,8 +82,19 @@ footer{
 .menu li a{
     text-decoration: none;
     font-weight: 900;
-    transition: background-color 0.3s;
+    transition: 0.5s;
+    border:10px #7c7b7b;
+    background: rgb(0, 0, 0);
+    border-radius: 20px;
 }
+
+.menu li a:hover{
+    background: #dbdbdb;
+    color: rgb(102, 102, 102);
+    transition: 0.5s;
+    border-radius: 70px;
+    padding: 15px;
+  }
 
 .card{
     padding: 15px;
@@ -105,6 +125,10 @@ footer{
         display: flex;
     }
 
+    .flex-item-1 {
+    flex: 1;
+}
+
 .imagem{
     margin: auto; /*aplica a imagem aos quatro lados.*/
     width: 10;
@@ -112,38 +136,102 @@ footer{
 }
 
 .box{
-    background-color: #dbdada;
+    background-color: #707070;
     padding: 300px;
     margin: 10px;
-    border: 0.5px solid #fd3030;
+    border: 2.5px solid #fd3030;
     width: 100px; /**/
     border-radius: 100px;
     box-shadow: 0 4px 8px 0;
 }
 
 .box1 {
-    background-color: #e2d9d9;
+    background-color: #707070;
     padding: 40px;
     margin-left: 10px;
-    border: 1.5px solid #ff4343;
+    border: 2.5px solid #ff4343;
     width: 550px;
     border-radius: 10px;
     box-shadow: 0 9px 8px 0 rgba(255, 0, 0, 0.2);
 }
 
 .box2 {
-    background-color: #c2b6b6;
+    background-color: #707070;
     padding: 10px;
     margin: 10px;
-    border: 1.5px solid #f83030;
+    border: 2.5px solid #f83030;
     width: 25%;
+    border-radius: 10px;
     box-shadow: 0 9px 8px 0 rgba(255, 0, 0, 0.2);
+}
+
+.box3 {
+    background-color: #707070;
+    padding: 45px;
+    margin-left: 250px;
+    border: 2.5px solid #ff4343;
+    width: 600px;
+    bottom: 200px;
+    border-radius: 10px;
+    box-shadow: 0 9px 8px 0 rgba(255, 0, 0, 0.2);
+}
+
+.box4 {
+    background-color: #707070;
+    padding: 10px;
+    margin-left: 250px;
+    border: 2.5px solid #ff4343;
+    width: 700px;
+    bottom: 100px;
+    border-radius: 10px;
+    box-shadow: 0 9px 8px 0 rgba(255, 0, 0, 0.2);
+}
+
+.box5 {
+    background-color: #707070;
+    padding: 40px;
+    margin-left: 10px;
+    border: 2.5px solid #ff4343;
+    width: 450px;
+    border-radius: 10px;
+    box-shadow: 0 8px 10px 0 rgba(253, 0, 0, 0.596);
 }
 
 .imge{
     position: absolute;
     right: 90px;
+    top: 40%;
+}
+
+.imge1 {
+    position: absolute;
+    right: 100px;
     top: 30%;
+    width: 350px;
+}
+
+.imge2 {
+    position: absolute;
+    right: 100px;
+    top: 30%;
+    width: 360px;
+    height: 400px
+}
+
+.imge3 {
+    position: absolute;
+    right: 55px;
+    top: 30%;
+    width: 520px;
+    height: 420px;
+}
+
+.imge4 {
+    position: absolute;
+    right: 20px;
+    top: 30%;
+    width: 520px;
+    height: 620px;
 }
 
 .left{
@@ -155,4 +243,11 @@ footer{
     width: 100px;
     height: 100px;
     padding-left: 100px;
+}
+
+.dark-mode{
+    --primary-color: #0044ff;
+    --secondary-color: #000c7c;
+    --text-color: #fff;
+    --background-color: #000000;
 }
